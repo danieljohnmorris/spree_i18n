@@ -231,7 +231,7 @@ ru:
   allow_backorders: "Разрешить задолженные заказы"
   allow_ssl_to_be_used_when_in_developement_and_test_modes: "Использовать SSL в development и test режимах"
   allow_ssl_to_be_used_when_in_production_mode: "Использовать SSL в production"
-  allowed_ssl_in_production_mode: "SSL {{not}} будет использован в режиме production"
+  allowed_ssl_in_production_mode: "SSL %{not} будет использован в режиме production"
   already_registered: "Уже зарегистрированы"
   alt_text: Alternative Text
   alternative_phone: "Дополнительный телефон"
@@ -268,7 +268,7 @@ ru:
   back_end: Back End
   back_to_store: "Назад к списку"
   backordered: "предзаказ"
-  backordering_is_allowed: "Задолженные заказы {{not}} разрешены"
+  backordering_is_allowed: "Задолженные заказы %{not} разрешены"
   balance_due: "Дебетовое сальдо"
   best_selling_products: "Товары - бестселлеры"
   best_selling_taxons: "Таксоны - бестселлеры"
@@ -320,7 +320,7 @@ ru:
   copy_all_mails_to: "Копировать все письма на"
   cost_price: "Себестоимость"
   count: "Количество"
-  count_of_reduced_by: "количество '{{name}}' уменьшено на {{count}}"
+  count_of_reduced_by: "количество '%{name}' уменьшено на %{count}"
   country: "Страна"
   country_based: "Страна"
   coupon: Coupon
@@ -594,7 +594,7 @@ ru:
     resumed : resumed
     returned: returned
   order_summary: "Сводка по заказу"
-  order_sure_want_to: "Вы уверены, что хотите {{event}} этот заказ?"
+  order_sure_want_to: "Вы уверены, что хотите %{event} этот заказ?"
   order_total: "Итого заказ"
   order_total_message: "Полная сумма, снятая с вашей карточки, составит"
   order_updated: "Заказ обновлен"
@@ -642,7 +642,7 @@ ru:
   previous: "пред."
   price: "Цена"
   price_bucket: Price Bucket
-  price_with_vat_included: "{{price}} (вкл. НДС)"
+  price_with_vat_included: "%{price} (вкл. НДС)"
   problem_authorizing_card: "Проблема при авторизации Вашей кредитной карты"
   problem_capturing_card: "Проблема при capture Вашей кредитной карты"
   problems_processing_order: "При обработке Вашего заказа возникли проблемы"
@@ -657,7 +657,7 @@ ru:
   product_properties: "Свойства товара"
   product_rule: 
     choose_products: Choose products
-    label: "Order must contain {{select}} of these products"
+    label: "Order must contain %{select} of these products"
     match_all: all
     match_any: at least one
     product_source: 
@@ -780,7 +780,7 @@ ru:
         name: "Имеет свойство с указанным значением  "
         sentence: "есть свойство <em>%s</em> со значением <em>%s</em>"
   products: "Товары"
-  products_with_zero_inventory_display: "Отсутсвующие товары {{not}} будут отображаться"
+  products_with_zero_inventory_display: "Отсутсвующие товары %{not} будут отображаться"
   promotion_form: 
     match_policies: 
       all: Match any of these rules
@@ -855,7 +855,7 @@ ru:
   scope: "Фильтр"
   scopes: "Фильтры"
   search: "Поиск"
-  search_results: "Результаты поиска по запросу '{{keywords}}'"
+  search_results: "Результаты поиска по запросу '%{keywords}'"
   searching: Searching
   secure_connection_type: "Тип защищенного соединения"
   secure_creditcard: "Безопасная кредитная карта"
@@ -897,7 +897,7 @@ ru:
   shipping_methods: "Способы доставки"
   shipping_methods_description: "Управление методами доставки"
   shipping_total: "Доставка"
-  shop_by_taxonomy: "{{taxonomy}}"
+  shop_by_taxonomy: "%{taxonomy}"
   shopping_cart: "Корзина"
   show: "Показать"
   show_active: "Show Active"
@@ -906,7 +906,7 @@ ru:
   show_only_complete_orders: "Показывать только обработанные заказы"
   show_out_of_stock_products: "Показать товары, которых нет в наличии"
   show_price_inc_vat: "Показывать цену с налогом"
-  showing_first_n: "Показаны первые {{n}}"
+  showing_first_n: "Показаны первые %{n}"
   sign_up: "Регистрация"
   site_name: "Название магазина"
   site_url: "Адрес магазина URL"
