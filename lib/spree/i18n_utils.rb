@@ -1,5 +1,3 @@
-require 'rails'
-
 module Spree
   module I18nUtils
 
